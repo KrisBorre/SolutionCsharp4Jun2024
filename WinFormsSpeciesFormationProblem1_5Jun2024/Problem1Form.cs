@@ -1,24 +1,24 @@
 using LibraryIndividual4Jun2024;
 
-namespace WinFormsSpeciesFormationProblem10_4Jun2024
+namespace WinFormsSpeciesFormationProblem1_5Jun2024
 {
-    public partial class Problem10Form : Form
+    public partial class Problem1Form : Form
     {
         private ControlManager controlManager;
 
-        public Problem10Form()
+        public Problem1Form()
         {
             InitializeComponent();
 
             int width = 1456;
-            int height = 557;
+            int height = 851;
             this.ClientSize = new Size(width, height);
 
-            Problem problem = new Problem10();
+            Problem problem = new Problem1();
 
             this.Text = problem.ToString();
 
-            this.controlManager = new ControlManager(problem);
+            this.controlManager = new ControlManager(problem: problem, width: width, height: height);
 
             foreach (Control control in this.controlManager.Controls)
             {
@@ -31,7 +31,7 @@ namespace WinFormsSpeciesFormationProblem10_4Jun2024
         private void Form1_SizeChanged(object sender, EventArgs e)
         {
             int width = this.ClientSize.Width;
-            int height = this.ClientSize.Height;
+            int totalPlotViewheight = this.ClientSize.Height - 40;
 
             if (this.controlManager.PlotViews != null)
             {
@@ -39,11 +39,14 @@ namespace WinFormsSpeciesFormationProblem10_4Jun2024
                 {
                     if (this.controlManager.PlotViews[i] != null)
                     {
-                        this.controlManager.PlotViews[i].Size = new Size(width, (height - 40) / this.controlManager.PlotViews.Count);
-                        this.controlManager.PlotViews[i].Location = new Point(0, 40 + i * ((height - 40) / this.controlManager.PlotViews.Count));
+                        this.controlManager.PlotViews[i].Size = new Size(width, (totalPlotViewheight - 40) / this.controlManager.PlotViews.Count);
+                        this.controlManager.PlotViews[i].Location = new Point(0, 40 + i * ((totalPlotViewheight - 40) / this.controlManager.PlotViews.Count));
                     }
                 }
             }
+
+            this.controlManager.Label2.Location = new Point(12, totalPlotViewheight);
+            this.controlManager.TextBox1.Location = new Point(149, totalPlotViewheight);
         }
     }
 }

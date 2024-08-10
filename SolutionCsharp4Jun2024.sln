@@ -15,15 +15,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinFormsSpeciesFormationPro
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinFormsSpeciesFormationProblem10_4Jun2024", "WinFormsSpeciesFormationProblem10_4Jun2024\WinFormsSpeciesFormationProblem10_4Jun2024.csproj", "{3CC4FC7D-6E98-45AF-9728-174658A52D4F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsSpeciesFormationProblem3_4Jun2024", "WinFormsSpeciesFormationProblem3_4Jun2024\WinFormsSpeciesFormationProblem3_4Jun2024.csproj", "{9EA68CB4-379F-4ACE-9CF0-5F419B1CE9E7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinFormsSpeciesFormationProblem3_4Jun2024", "WinFormsSpeciesFormationProblem3_4Jun2024\WinFormsSpeciesFormationProblem3_4Jun2024.csproj", "{9EA68CB4-379F-4ACE-9CF0-5F419B1CE9E7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsSpeciesFormationProblem5_4Jun2024", "WinFormsSpeciesFormationProblem5_4Jun2024\WinFormsSpeciesFormationProblem5_4Jun2024.csproj", "{0A4FCD74-3FFD-42E3-9E05-B79E8BB33C37}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinFormsSpeciesFormationProblem5_4Jun2024", "WinFormsSpeciesFormationProblem5_4Jun2024\WinFormsSpeciesFormationProblem5_4Jun2024.csproj", "{0A4FCD74-3FFD-42E3-9E05-B79E8BB33C37}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsSpeciesFormationProblem6_4Jun2024", "WinFormsSpeciesFormationProblem6_4Jun2024\WinFormsSpeciesFormationProblem6_4Jun2024.csproj", "{64194602-9E4D-4216-85B5-6653E57AC98D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinFormsSpeciesFormationProblem6_4Jun2024", "WinFormsSpeciesFormationProblem6_4Jun2024\WinFormsSpeciesFormationProblem6_4Jun2024.csproj", "{64194602-9E4D-4216-85B5-6653E57AC98D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsSpeciesFormationProblem8_4Jun2024", "WinFormsSpeciesFormationProblem8_4Jun2024\WinFormsSpeciesFormationProblem8_4Jun2024.csproj", "{80250D5A-B86A-4955-A42B-42E13BF5B998}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinFormsSpeciesFormationProblem8_4Jun2024", "WinFormsSpeciesFormationProblem8_4Jun2024\WinFormsSpeciesFormationProblem8_4Jun2024.csproj", "{80250D5A-B86A-4955-A42B-42E13BF5B998}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsSpeciesFormationProblem9_4Jun2024", "WinFormsSpeciesFormationProblem9_4Jun2024\WinFormsSpeciesFormationProblem9_4Jun2024.csproj", "{0BCB8E97-38C1-4E48-9967-5B5B6ECAB864}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinFormsSpeciesFormationProblem9_4Jun2024", "WinFormsSpeciesFormationProblem9_4Jun2024\WinFormsSpeciesFormationProblem9_4Jun2024.csproj", "{0BCB8E97-38C1-4E48-9967-5B5B6ECAB864}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsSpeciesFormationProblem9_5Jun2024", "WinFormsSpeciesFormationProblem9_5Jun2024\WinFormsSpeciesFormationProblem9_5Jun2024.csproj", "{90A3BD9C-C5E9-46C8-A984-D058C5BD5CC2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinFormsSpeciesFormationProblem1_5Jun2024", "WinFormsSpeciesFormationProblem1_5Jun2024\WinFormsSpeciesFormationProblem1_5Jun2024.csproj", "{8DE69CE1-17CC-48EC-83FA-63A8BE1275E2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +79,14 @@ Global
 		{0BCB8E97-38C1-4E48-9967-5B5B6ECAB864}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0BCB8E97-38C1-4E48-9967-5B5B6ECAB864}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0BCB8E97-38C1-4E48-9967-5B5B6ECAB864}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90A3BD9C-C5E9-46C8-A984-D058C5BD5CC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90A3BD9C-C5E9-46C8-A984-D058C5BD5CC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90A3BD9C-C5E9-46C8-A984-D058C5BD5CC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90A3BD9C-C5E9-46C8-A984-D058C5BD5CC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DE69CE1-17CC-48EC-83FA-63A8BE1275E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DE69CE1-17CC-48EC-83FA-63A8BE1275E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DE69CE1-17CC-48EC-83FA-63A8BE1275E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DE69CE1-17CC-48EC-83FA-63A8BE1275E2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

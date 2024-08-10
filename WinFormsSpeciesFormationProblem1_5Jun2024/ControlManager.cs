@@ -2,8 +2,9 @@
 using OxyPlot;
 using OxyPlot.Series;
 using OxyPlot.WindowsForms;
+using System.Globalization;
 
-namespace WinFormsSpeciesFormationProblem10_4Jun2024
+namespace WinFormsSpeciesFormationProblem1_5Jun2024
 {
     internal class ControlManager
     {
@@ -25,7 +26,12 @@ namespace WinFormsSpeciesFormationProblem10_4Jun2024
         private Label label1;
         private Problem problem;
 
-        public ControlManager(Problem problem)
+        public Label Label2;
+        public TextBox TextBox1;
+
+        public Button button1;
+
+        public ControlManager(Problem problem, int width, int height)
         {
             this.problem = problem;
             this.numberOfPlots = problem.NumberOfProblemVariables - 1;
@@ -41,20 +47,58 @@ namespace WinFormsSpeciesFormationProblem10_4Jun2024
             label1.Text = "label1";
             Controls.Add(label1);
 
-            int width = 1456;
-            int height = 557;
-
             this.plotViews = new List<PlotView>();
+            int totalPlotViewheight = height - 40;
 
             for (int i = 0; i < this.numberOfPlots; i++)
             {
                 PlotView plotView = new PlotView();
                 Controls.Add(plotView);
-                plotView.Size = new Size(width, (height - 40) / this.numberOfPlots);
-                plotView.Location = new Point(0, 40 + i * ((height - 40) / this.numberOfPlots));
+                plotView.Size = new Size(width, (totalPlotViewheight - 40) / this.numberOfPlots);
+                plotView.Location = new Point(0, 40 + i * ((totalPlotViewheight - 40) / this.numberOfPlots));
                 this.plotViews.Add(plotView);
             }
 
+            Label2 = new Label();
+            Label2.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
+            Label2.AutoSize = true;
+            Label2.Location = new Point(12, totalPlotViewheight);
+            Label2.Name = "label2";
+            Label2.Size = new Size(131, 15);
+            Label2.TabIndex = 2;
+            Label2.Text = "number of generations:";
+            Controls.Add(Label2);
+
+            TextBox1 = new TextBox();
+            TextBox1.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
+            TextBox1.Location = new Point(149, totalPlotViewheight);
+            TextBox1.Name = "textBox1";
+            TextBox1.Size = new Size(39, 23);
+            TextBox1.TabIndex = 4;
+            TextBox1.Text = "2";
+            Controls.Add(TextBox1);
+
+            button1 = new Button();
+            button1.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
+            button1.Location = new Point(width - 100, totalPlotViewheight);
+            button1.Name = "button1";
+            button1.Size = new Size(76, 23);
+            button1.TabIndex = 3;
+            button1.Text = "Simulate";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
+            Controls.Add(button1);
+
+            this.Calculate();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Calculate();
+        }
+
+        private void Calculate()
+        {
             for (int i = 0; i < this.numberOfPlots; i++)
             {
                 PlotModel plotModel = new PlotModel();
@@ -71,7 +115,7 @@ namespace WinFormsSpeciesFormationProblem10_4Jun2024
 
         private LineSeries GetFitnessSeries(int j = 1)
         {
-            label1.Text = problem.ToString();
+            label1.Text = problem.ToString() + "\nx*(x-y)+z is biggest when x=1, y=0, z=1 with the condition that the values are between 0 and 1.";
 
             LineSeries series = new LineSeries();
 
@@ -100,9 +144,23 @@ namespace WinFormsSpeciesFormationProblem10_4Jun2024
             PopulationGenerator populationGenerator = new PopulationGenerator();
             Population population = populationGenerator.Initialize(this.problem, this.problem, populationSize);
 
-            int maximum_number_generations = 2; //24; // 8;
+            int number_of_generations_to_simulate = 2;
 
-            for (int generation = 0; generation < maximum_number_generations; generation++)
+            string input1 = this.TextBox1.Text;
+
+            NumberFormatInfo provider = new NumberFormatInfo();
+            provider.NumberDecimalSeparator = ".";
+
+            if (int.TryParse(s: input1, style: NumberStyles.AllowDecimalPoint, provider: provider, result: out int number_of_generations_from_textBox))
+            {
+                number_of_generations_to_simulate = number_of_generations_from_textBox;
+            }
+            else
+            {
+                this.TextBox1.Text = number_of_generations_to_simulate.ToString();
+            }
+
+            for (int generation = 0; generation < number_of_generations_to_simulate; generation++)
             {
                 population.Evaluate();
                 population = populationGenerator.Next(population);
@@ -116,6 +174,8 @@ namespace WinFormsSpeciesFormationProblem10_4Jun2024
             var binBreaks = HistogramHelpers.CreateUniformBins(start: lowerBound, end: upperBound, binCount: 300);
             chs.Items.AddRange(HistogramHelpers.Collect(population.Sample(j), binBreaks, binningOptions));
             chs.StrokeThickness = 1;
+
+            // x*(x-y)+z is biggest when x=1, y=0, z=1 with the condition that the values are between 0 and 1.
 
             return chs;
         }

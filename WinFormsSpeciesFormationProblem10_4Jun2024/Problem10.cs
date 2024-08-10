@@ -1,6 +1,6 @@
 ﻿using LibraryIndividual4Jun2024;
 
-namespace WinFormsSpeciesFormationProblem4_4Jun2024
+namespace WinFormsSpeciesFormationProblem10_4Jun2024
 {
     public class Problem10 : Problem
     {
