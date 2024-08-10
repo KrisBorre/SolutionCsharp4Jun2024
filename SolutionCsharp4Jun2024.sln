@@ -25,9 +25,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinFormsSpeciesFormationPro
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinFormsSpeciesFormationProblem9_4Jun2024", "WinFormsSpeciesFormationProblem9_4Jun2024\WinFormsSpeciesFormationProblem9_4Jun2024.csproj", "{0BCB8E97-38C1-4E48-9967-5B5B6ECAB864}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsSpeciesFormationProblem9_5Jun2024", "WinFormsSpeciesFormationProblem9_5Jun2024\WinFormsSpeciesFormationProblem9_5Jun2024.csproj", "{90A3BD9C-C5E9-46C8-A984-D058C5BD5CC2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinFormsSpeciesFormationProblem9_5Jun2024", "WinFormsSpeciesFormationProblem9_5Jun2024\WinFormsSpeciesFormationProblem9_5Jun2024.csproj", "{90A3BD9C-C5E9-46C8-A984-D058C5BD5CC2}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinFormsSpeciesFormationProblem1_5Jun2024", "WinFormsSpeciesFormationProblem1_5Jun2024\WinFormsSpeciesFormationProblem1_5Jun2024.csproj", "{8DE69CE1-17CC-48EC-83FA-63A8BE1275E2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinFormsSpeciesFormationProblem10_5Jun2024", "WinFormsSpeciesFormationProblem10_5Jun2024\WinFormsSpeciesFormationProblem10_5Jun2024.csproj", "{165FC1A8-45D4-4FF5-8750-F57F78A36FE7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinFormsSpeciesFormationProblem4_5Jun2024", "WinFormsSpeciesFormationProblem4_5Jun2024\WinFormsSpeciesFormationProblem4_5Jun2024.csproj", "{5AAA2174-E342-4135-B4DF-EB14FA6D6661}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinFormsSpeciesFormationProblem6_5Jun2024", "WinFormsSpeciesFormationProblem6_5Jun2024\WinFormsSpeciesFormationProblem6_5Jun2024.csproj", "{8C9F8BD8-9BA2-4122-866D-CCBD2F4C5748}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsSpeciesFormationProblem7_5Jun2024", "WinFormsSpeciesFormationProblem7_5Jun2024\WinFormsSpeciesFormationProblem7_5Jun2024.csproj", "{AF227BF6-19DD-403C-9D49-6A2034522328}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +95,22 @@ Global
 		{8DE69CE1-17CC-48EC-83FA-63A8BE1275E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8DE69CE1-17CC-48EC-83FA-63A8BE1275E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8DE69CE1-17CC-48EC-83FA-63A8BE1275E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{165FC1A8-45D4-4FF5-8750-F57F78A36FE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{165FC1A8-45D4-4FF5-8750-F57F78A36FE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{165FC1A8-45D4-4FF5-8750-F57F78A36FE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{165FC1A8-45D4-4FF5-8750-F57F78A36FE7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AAA2174-E342-4135-B4DF-EB14FA6D6661}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AAA2174-E342-4135-B4DF-EB14FA6D6661}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AAA2174-E342-4135-B4DF-EB14FA6D6661}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AAA2174-E342-4135-B4DF-EB14FA6D6661}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C9F8BD8-9BA2-4122-866D-CCBD2F4C5748}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C9F8BD8-9BA2-4122-866D-CCBD2F4C5748}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C9F8BD8-9BA2-4122-866D-CCBD2F4C5748}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C9F8BD8-9BA2-4122-866D-CCBD2F4C5748}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF227BF6-19DD-403C-9D49-6A2034522328}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF227BF6-19DD-403C-9D49-6A2034522328}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF227BF6-19DD-403C-9D49-6A2034522328}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF227BF6-19DD-403C-9D49-6A2034522328}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
