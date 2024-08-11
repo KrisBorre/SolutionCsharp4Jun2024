@@ -26,7 +26,7 @@
         /// </summary>
         /// <param name="originalPopulation"></param>
         /// <returns></returns>
-        public Population Next(Population originalPopulation)
+        public Population Next(Population originalPopulation, double geneticDistanceThreshold = 1.75)
         {
             int originalPopulationSize = originalPopulation.Count;
 
@@ -77,7 +77,7 @@
 
                                     if (Math.Pow(relativeFitness2, power) > random.NextDouble())
                                     {
-                                        if (geneticDistanceCalculator.CalculateDistance(parent1, parent2) < 1.75 * random.NextDouble())
+                                        if (geneticDistanceCalculator.CalculateDistance(parent1, parent2) < geneticDistanceThreshold * random.NextDouble())
                                         {
                                             Individual child = individualGenerator.NewIndividual(parent1, parent2);
 
