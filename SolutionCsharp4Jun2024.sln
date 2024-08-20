@@ -37,17 +37,29 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinFormsSpeciesFormationPro
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinFormsSpeciesFormationProblem7_5Jun2024", "WinFormsSpeciesFormationProblem7_5Jun2024\WinFormsSpeciesFormationProblem7_5Jun2024.csproj", "{AF227BF6-19DD-403C-9D49-6A2034522328}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsSpeciesFormationProblem1_6Jun2024", "WinFormsSpeciesFormationProblem1_6Jun2024\WinFormsSpeciesFormationProblem1_6Jun2024.csproj", "{53E34780-8017-4B44-A5F0-850E032CB49A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinFormsSpeciesFormationProblem1_6Jun2024", "WinFormsSpeciesFormationProblem1_6Jun2024\WinFormsSpeciesFormationProblem1_6Jun2024.csproj", "{53E34780-8017-4B44-A5F0-850E032CB49A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsSpeciesFormationProblem10_6Jun2024", "WinFormsSpeciesFormationProblem10_6Jun2024\WinFormsSpeciesFormationProblem10_6Jun2024.csproj", "{98B6EEDA-9539-44AA-8AA9-E57135EA5ED8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinFormsSpeciesFormationProblem10_6Jun2024", "WinFormsSpeciesFormationProblem10_6Jun2024\WinFormsSpeciesFormationProblem10_6Jun2024.csproj", "{98B6EEDA-9539-44AA-8AA9-E57135EA5ED8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsSpeciesFormationProblem4_6Jun2024", "WinFormsSpeciesFormationProblem4_6Jun2024\WinFormsSpeciesFormationProblem4_6Jun2024.csproj", "{9BC5D06E-2B99-47F2-8792-C2C1625AAA68}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinFormsSpeciesFormationProblem4_6Jun2024", "WinFormsSpeciesFormationProblem4_6Jun2024\WinFormsSpeciesFormationProblem4_6Jun2024.csproj", "{9BC5D06E-2B99-47F2-8792-C2C1625AAA68}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsSpeciesFormationProblem6_6Jun2024", "WinFormsSpeciesFormationProblem6_6Jun2024\WinFormsSpeciesFormationProblem6_6Jun2024.csproj", "{009A648D-BCBB-4B70-A1CB-E329471F41A4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinFormsSpeciesFormationProblem6_6Jun2024", "WinFormsSpeciesFormationProblem6_6Jun2024\WinFormsSpeciesFormationProblem6_6Jun2024.csproj", "{009A648D-BCBB-4B70-A1CB-E329471F41A4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsSpeciesFormationProblem7_6Jun2024", "WinFormsSpeciesFormationProblem7_6Jun2024\WinFormsSpeciesFormationProblem7_6Jun2024.csproj", "{7EE00C2E-6E0A-4FA9-9FA1-FC6BEB97CC22}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinFormsSpeciesFormationProblem7_6Jun2024", "WinFormsSpeciesFormationProblem7_6Jun2024\WinFormsSpeciesFormationProblem7_6Jun2024.csproj", "{7EE00C2E-6E0A-4FA9-9FA1-FC6BEB97CC22}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsSpeciesFormationProblem9_6Jun2024", "WinFormsSpeciesFormationProblem9_6Jun2024\WinFormsSpeciesFormationProblem9_6Jun2024.csproj", "{B0EAB41E-2750-447E-80D6-EDD355FEFD5C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinFormsSpeciesFormationProblem9_6Jun2024", "WinFormsSpeciesFormationProblem9_6Jun2024\WinFormsSpeciesFormationProblem9_6Jun2024.csproj", "{B0EAB41E-2750-447E-80D6-EDD355FEFD5C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibraryIndividual7Jun2024", "LibraryIndividual7Jun2024\LibraryIndividual7Jun2024.csproj", "{E9150962-F3D9-492A-B68D-B9DC3C170EF0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinFormsSpeciesFormationProblem1_7Jun2024", "WinFormsSpeciesFormationProblem1_7Jun2024\WinFormsSpeciesFormationProblem1_7Jun2024.csproj", "{727C98B5-3ACD-4E98-88EB-7F8C9CF3D026}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsSpeciesFormationProblem4_7Jun2024", "WinFormsSpeciesFormationProblem4_7Jun2024\WinFormsSpeciesFormationProblem4_7Jun2024.csproj", "{80741CA5-6E11-4907-BC57-585921D9A422}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsSpeciesFormationProblem6_7Jun2024", "WinFormsSpeciesFormationProblem6_7Jun2024\WinFormsSpeciesFormationProblem6_7Jun2024.csproj", "{C693C000-B59A-4F15-AF41-6797254DABCA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsSpeciesFormationProblem7_7Jun2024", "WinFormsSpeciesFormationProblem7_7Jun2024\WinFormsSpeciesFormationProblem7_7Jun2024.csproj", "{C17CD2A9-4CAA-4221-9AF5-C3847E9F9141}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsSpeciesFormationProblem9_7Jun2024", "WinFormsSpeciesFormationProblem9_7Jun2024\WinFormsSpeciesFormationProblem9_7Jun2024.csproj", "{F2FB66D8-59C6-4287-BBA7-A15F4D15F60B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -147,6 +159,30 @@ Global
 		{B0EAB41E-2750-447E-80D6-EDD355FEFD5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B0EAB41E-2750-447E-80D6-EDD355FEFD5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B0EAB41E-2750-447E-80D6-EDD355FEFD5C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9150962-F3D9-492A-B68D-B9DC3C170EF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9150962-F3D9-492A-B68D-B9DC3C170EF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9150962-F3D9-492A-B68D-B9DC3C170EF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9150962-F3D9-492A-B68D-B9DC3C170EF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{727C98B5-3ACD-4E98-88EB-7F8C9CF3D026}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{727C98B5-3ACD-4E98-88EB-7F8C9CF3D026}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{727C98B5-3ACD-4E98-88EB-7F8C9CF3D026}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{727C98B5-3ACD-4E98-88EB-7F8C9CF3D026}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80741CA5-6E11-4907-BC57-585921D9A422}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80741CA5-6E11-4907-BC57-585921D9A422}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80741CA5-6E11-4907-BC57-585921D9A422}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80741CA5-6E11-4907-BC57-585921D9A422}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C693C000-B59A-4F15-AF41-6797254DABCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C693C000-B59A-4F15-AF41-6797254DABCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C693C000-B59A-4F15-AF41-6797254DABCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C693C000-B59A-4F15-AF41-6797254DABCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C17CD2A9-4CAA-4221-9AF5-C3847E9F9141}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C17CD2A9-4CAA-4221-9AF5-C3847E9F9141}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C17CD2A9-4CAA-4221-9AF5-C3847E9F9141}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C17CD2A9-4CAA-4221-9AF5-C3847E9F9141}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2FB66D8-59C6-4287-BBA7-A15F4D15F60B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2FB66D8-59C6-4287-BBA7-A15F4D15F60B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2FB66D8-59C6-4287-BBA7-A15F4D15F60B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2FB66D8-59C6-4287-BBA7-A15F4D15F60B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
